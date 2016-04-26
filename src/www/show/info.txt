@@ -1,0 +1,15 @@
+{
+    "renxiang.raw.jpg": {
+        "show_title": "人像美化",
+        "show_content": "",
+        "hide_title": "",
+        "hide_content": ""
+    },
+
+    "card.musi.jpg": {
+        "show_title": "",
+        "show_content": "",
+        "hide_title": "bla",
+        "hide_content": "blabla"
+    }
+}
