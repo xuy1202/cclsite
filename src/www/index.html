@@ -32,7 +32,7 @@
         <div class="site-top">
             <div class="site-header clearfix">
                 <div class="container">
-                    <a href="#" class="site-brand pull-left"><strong>CCL</strong>'s portfolio</a>
+                    <a href="#" class="site-brand pull-left"><strong><span class="blue">CCL</span></strong><span class="green">'s portfolio</span></a>
                     <!--a href="#" class="site-brand pull-left"><strong>Masonry</strong> Free Template</a>
                     <div class="social-icons pull-right">
                         <ul>
@@ -50,8 +50,17 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-offset-2 col-md-8 text-center">
-                            <h2>介绍 <span class="blue">template</span><span class="green">mo</span></h2>
-                            <p>self introdation here or some words for works</p>
+                            <h3 style="line-height:2.5;">欢迎光临我的作品站</h3>
+                            <h4 style="line-height:2;">下面是我近一段时间的设计作品</h4>
+                            <h4 style="line-height:2;">主题覆盖了
+                                <span class="green">图像的合成与处理</span>、
+                                <span class="green">海报设计</span>、
+                                <span class="green">AI手绘</span>、
+                                <span class="green">LOGO设计... ...</span>
+                            </h4>
+                            <h4 style="line-height:2;">如果对作品有任何建议，欢迎联系 <span class="blue">15810598077(AT)163.com</span></h4>
+                            <h4 style="line-height:2;"></h4>
+                            <p></p>
                         </div>
                     </div>
                     <!--div class="row">
@@ -79,18 +88,21 @@
                        <img src="{{ i.fg_pic }}" alt="">
                        {% if i.fg_title or i.fg_content %}
                        <div class="title-over">
-                           <h4><a href="#">   {{ i.fg_title   }}</a></h4>
+                           <h5><a href="#">   {{ i.fg_title   }}</a></h5>
                            <span class="date">{{ i.fg_content }}</span>
                        </div>
                        {% end %}
                        <div class="post-hover text-center"> <div class="inside">
                            {% if i.bg_pic %}
-                               <a href="/post/{{ i.bg_pic }}/" target="view_window"><img src="{{ i.bg_pic }}" alt=""></a>
+                               <!--a href="/post/{{ i.bg_pic }}/" target="view_window"><img src="{{ i.bg_pic }}" alt=""></a-->
+                               <img src="{{ i.bg_pic }}" alt="">
                            {% else %}
                                <i class="fa fa-plus"></i>
-                               <span class="date">2015-12-03</span>
-                               <h4><a href="#">{{ i.bg_title   }}</a></h4>
-                               <p>{{ i.bg_content }}</p>
+                               <!--span class="date">2015-12-03</span-->
+                               <h5><a href="#">{{ i.bg_title   }}</a></h5>
+                               {% for content in i.bg_content %}
+                               <p> {{ content }} </p>
+                               {% end %}
                             {% end %}
                        </div> </div>
                    </div>
@@ -107,20 +119,19 @@
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <div class="social-icons">
-                            <ul>
+                            <!--ul>
                                 <li><a href="#" class="fa fa-facebook"></a></li>
                                 <li><a href="#" class="fa fa-twitter"></a></li>
                                 <li><a href="#" class="fa fa-behance"></a></li>
                                 <li><a href="#" class="fa fa-dribbble"></a></li>
                                 <li><a href="#" class="fa fa-google-plus"></a></li>
-                            </ul>
+                            </ul-->
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <p class="copyright-text">Copyright &copy; 2084 Company Name 
-                    	| More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+                        <p class="copyright-text">Copyright &copy; 2016 CCL 
                     </div>
                 </div>
             </div>

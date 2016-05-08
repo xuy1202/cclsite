@@ -18,13 +18,14 @@ import tornado.web
 
 
 class Item(object):
-    def __init__(self, fg_pic, bg_pic, fg_title, fg_content, bg_title, bg_content):
+    def __init__(self, fg_pic, bg_pic, fg_title, fg_content, bg_title, bg_content, weight):
         self.fg_pic     = fg_pic
         self.bg_pic     = bg_pic
         self.fg_title   = fg_title
         self.fg_content = fg_content
         self.bg_title   = bg_title
         self.bg_content = bg_content
+        self.weight     = weight
 
     def __str__(self):
         return str([
@@ -34,6 +35,7 @@ class Item(object):
             self.fg_content ,
             self.bg_title   ,
             self.bg_content ,
+            self.weight     ,
         ])
     __repr__ = __str__
 
@@ -63,13 +65,17 @@ class IndexHandler(tornado.web.RequestHandler):
             fg_title   = info.get(fg_pic,{}).get("show_title", "")
             fg_content = info.get(fg_pic,{}).get("show_content", "")
             bg_title   = info.get(fg_pic,{}).get("hide_title", "")
-            bg_content = info.get(fg_pic,{}).get("hide_content", "")
+            bg_content = info.get(fg_pic,{}).get("hide_content", "").split()
+            weight  = info.get(fg_pic,{}).get("weight", 0)
             if fg_pic:
                 fg_pic = "%s/%s"%(ref_show_path, fg_pic)
             if bg_pic:
                 bg_pic = "%s/%s"%(ref_show_path, bg_pic)
-            rets.append(Item(fg_pic, bg_pic, fg_title, fg_content, bg_title, bg_content))
-        #print rets
+            rets.append(Item(fg_pic, bg_pic, fg_title, fg_content, bg_title, bg_content, weight))
+        rets.sort(cmp=lambda x, y: cmp(x.weight, y.weight), reverse=True)
+        #print len(rets)
+        #for ret in rets:
+        #    print ret
         self.render("index.html", item=rets)
 
 

@@ -1,15 +1,220 @@
 {
+    "huadan.raw.jpg": {
+        "weight": 100,
+        "show_title": "",
+        "show_content": "",
+        "hide_title": "",
+        "hide_content": "利用页面卷角的效果 使平面化为立体 幻想清风袭来被吹乱了的画纸"
+    },
+
+    "mermal.jpg": {
+        "weight": 100,
+        "show_title": "",
+        "show_content": "",
+        "hide_title": "",
+        "hide_content": "用乌云海啸深海合成背景 渲染大海的广阔神秘 美人鱼徜徉 全然不顾背后的海啸 身下的鲨鱼"
+    },
+
+    "magicforest.raw.jpg": {
+        "weight": 95,
+        "show_title": "",
+        "show_content": "",
+        "hide_title": "",
+        "hide_content": "古藤、老树、乌鸦 漫天乌云笼罩着朦胧的圆月 女孩浮睡在半空 脚下的马灯火光 唤来了四处的萤火虫 魔幻而神秘"
+    },
+
+    "xingxing.jpg": {
+        "weight": 94,
+        "show_title": "",
+        "show_content": "",
+        "hide_title": "",
+        "hide_content": ""
+    },
+
+    "shuihuo.jpg": {
+        "weight": 93,
+        "show_title": "",
+        "show_content": "",
+        "hide_title": "",
+        "hide_content": "生动飞溅的水 热烈燃烧的火 交融"
+    },
+
+    "orangefish.jpg": {
+        "weight": 92,
+        "show_title": "",
+        "show_content": "",
+        "hide_title": "",
+        "hide_content": "清新的桔子 纯净的水 悠然的鱼"
+    },
+
+    "greenhead.raw.jpg": {
+        "weight": 91,
+        "show_title": "人像特效",
+        "show_content": "",
+        "hide_title": "",
+        "hide_content": ""
+    },
+
     "renxiang.raw.jpg": {
+        "weight": 90,
         "show_title": "人像美化",
         "show_content": "",
         "hide_title": "",
         "hide_content": ""
     },
 
-    "card.musi.jpg": {
+    "manhua.raw.jpg": {
+        "weight": 89,
+        "show_title": "动漫效果",
+        "show_content": "",
+        "hide_title": "",
+        "hide_content": ""
+    },
+
+    "manhua2.raw.jpg": {
+        "weight": 88,
+        "show_title": "动漫效果",
+        "show_content": "",
+        "hide_title": "",
+        "hide_content": ""
+    },
+
+    "shishangbasha.jpg": {
+        "weight": 87,
         "show_title": "",
         "show_content": "",
-        "hide_title": "bla",
-        "hide_content": "blabla"
-    }
+        "hide_title": "",
+        "hide_content": "时尚海报"
+    },
+
+    "shishanghaibao.jpg": {
+        "weight": 84,
+        "show_title": "",
+        "show_content": "",
+        "hide_title": "",
+        "hide_content": "时尚海报"
+    },
+
+    "zara1.jpg": {
+        "weight": 86,
+        "show_title": "",
+        "show_content": "",
+        "hide_title": "",
+        "hide_content": "商业海报"
+    },
+
+    "zara2.jpg": {
+        "weight": 85,
+        "show_title": "",
+        "show_content": "",
+        "hide_title": "",
+        "hide_content": "商业海报"
+    },
+
+    "guitar.jpg": {
+        "weight": 83,
+        "show_title": "",
+        "show_content": "",
+        "hide_title": "",
+        "hide_content": "音乐会海报"
+    },
+
+    "yuanxiaojie.jpg": {
+        "weight": 82,
+        "show_title": "",
+        "show_content": "",
+        "hide_title": "",
+        "hide_content": "节庆海报"
+    },
+
+    "wohucanglong.jpg": {
+        "weight": 81,
+        "show_title": "",
+        "show_content": "",
+        "hide_title": "",
+        "hide_content": "AI手绘字体 毛笔字效果"
+    },
+
+    "hehua.jpg": {
+        "weight": 80,
+        "show_title": "",
+        "show_content": "",
+        "hide_title": "",
+        "hide_content": "AI手绘荷花"
+    },
+
+    "shouhuihudie.jpg": {
+        "weight": 79,
+        "show_title": "",
+        "show_content": "",
+        "hide_title": "",
+        "hide_content": "AI手绘蝴蝶"
+    },
+
+    "huace1.jpg": {
+        "weight": 77,
+        "show_title": "",
+        "show_content": "",
+        "hide_title": "",
+        "hide_content": "书页设计"
+    },
+
+    "huace2.jpg": {
+        "weight": 77,
+        "show_title": "",
+        "show_content": "",
+        "hide_title": "",
+        "hide_content": "书页设计"
+    },
+
+    "huace3.jpg": {
+        "weight": 77,
+        "show_title": "",
+        "show_content": "",
+        "hide_title": "",
+        "hide_content": "书页设计"
+    },
+
+    "logo2.jpg": {
+        "weight": 76,
+        "show_title": "",
+        "show_content": "",
+        "hide_title": "",
+        "hide_content": "LOGO设计"
+    },
+
+    "logo1.jpg": {
+        "weight": 75,
+        "show_title": "",
+        "show_content": "",
+        "hide_title": "",
+        "hide_content": "LOGO设计"
+    },
+
+    "logo3.jpg": {
+        "weight": 74,
+        "show_title": "",
+        "show_content": "",
+        "hide_title": "",
+        "hide_content": "LOGO设计"
+    },
+
+    "card.ice.jpg": {
+        "weight": 0,
+        "show_title": "",
+        "show_content": "",
+        "hide_title": "",
+        "hide_content": "名片设计"
+    },
+
+    "card.musi.jpg": {
+        "weight": 0,
+        "show_title": "",
+        "show_content": "",
+        "hide_title": "",
+        "hide_content": "名片设计"
+    },
+
+    "_end": {}
 }
+
