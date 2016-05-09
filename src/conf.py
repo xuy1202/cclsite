@@ -26,6 +26,7 @@ class MainConf(object):
         self.process     = 1
         self.abs_show_path   = os.sep.join([self.html_path,'show'])
         self.ref_show_path   = 'static/show'
+        self.ref_show_path   = 'http://o6wefm4al.bkt.clouddn.com/show' #qiniu static cache
 
         self.DEBUG       = False 
 
@@ -37,8 +38,8 @@ tornado_settings = {
     "static_path"   : MainConf.single().html_path,
     "template_path" : MainConf.single().html_path,
     "gzip"  : False,
-    "cookie_secret": "O8wlmoc[WA8w6_+Z)R0Xcl!OBXbbu[JAjSrx3KpYZG\hE63SDe",
-    "login_url": "/login",
+    "cookie_secret": "O8WLMOC[WA8W6_+Z)R0XCL!OBXBBU[JAJSRX3KPYZG\HE63SEE",
+    "login_url": "/",
     "xsrf_cookies": True,
     'debug': MainConf.single().DEBUG,
 }

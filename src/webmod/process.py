@@ -42,6 +42,10 @@ class Item(object):
 
 class IndexHandler(tornado.web.RequestHandler):
     def get(self):
+        if os.path.exists(conf.MainConf.single().html_path + "/index.static.html"):
+            self.render("index.static.html")
+            return
+
         abs_show_path = conf.MainConf.single().abs_show_path
         ref_show_path = conf.MainConf.single().ref_show_path
 
